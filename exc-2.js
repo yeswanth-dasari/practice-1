@@ -12,7 +12,7 @@ function calculateSum(){
     let b = Number(document.getElementById("b").value);
     let n = Number(document.getElementById("n").value);
 
-    let result = sumOfMultiple(a,b,n);
+    let answer = sumOfMultiple(a, b, n);
 
-    document.getElementById("result").textContent = "sum =" + result ;
+    document.getElementById("result").textContent = "Sum =" + answer;
 }
