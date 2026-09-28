@@ -16,13 +16,13 @@ function calculateSum(){
 
 document.getElementById("a").addEvnetListener("keydown",function(event){
     if(event.key === "Enter"){
-        document.getElementById("b").focuus();
+        document.getElementById("b").focus();
     }
 });
 
 document.getElementById("b").addEvnetListener("keydown",function(event){
     if(event.key === "Enter"){
-        document.getElementById("n").focuus();
+        document.getElementById("n").focus();
     }
 });
 
