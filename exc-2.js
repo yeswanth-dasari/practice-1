@@ -14,5 +14,5 @@ function calculateSum(){
 
     let answer = sumOfMultiple(a, b, n);
 
-    document.getElementById("result").textContent = "Sum =" + answer;
+    document.getElementById("result1").textContent = "Sum =" + answer;
 }
