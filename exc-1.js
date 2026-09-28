@@ -5,4 +5,4 @@ for(let i = 1; i < 100; i++){
     }
 }
 document.getElementById("result").innerHTML = sum;
-//alert(sum);
+alert(sum);
