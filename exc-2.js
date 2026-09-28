@@ -15,23 +15,3 @@ document.getElementById("calculate").onclick = function(){
     let answer = sumMultiples(a, b, n);
     document.getElementById("result1").innerHTML = "Answer:" + answer;
 };
-
-// function to move to the next input when we press enter after entering value to it.
-
-document.getElementById("a").addEvnetListener("keydown",function(event){
-    if(event.key === "Enter"){
-        document.getElementById("b").focus();
-    }
-});
-
-document.getElementById("b").addEvnetListener("keydown",function(event){
-    if(event.key === "Enter"){
-        document.getElementById("n").focus();
-    }
-});
-
-document.getElementById("n").addEvnetListener("keydown",function(event){
-    if(event.key === "Enter"){
-        document.getElementById("calculate").click();
-    }
-});
