@@ -5,7 +5,7 @@ function sumMultiples(a, b, n){
             sum1 += i;
         }
     }
-    return sum1
+    return sum1;
 }
 document.getElementById("calculate").onclick = function(){
     let a = Number(document.getElementById("a").value);
@@ -32,6 +32,6 @@ document.getElementById("b").addEvnetListener("keydown",function(event){
 
 document.getElementById("n").addEvnetListener("keydown",function(event){
     if(event.key === "Enter"){
-        calculate();
+        document.getElementById("calculate").click();
     }
 });
