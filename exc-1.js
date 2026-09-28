@@ -4,5 +4,5 @@ for(let i = 1; i < 100; i++){
         sum += i;
     }
 }
-document.getElementById("result").innerHTML = sum;
 alert(sum);
+document.getElementById("result").innerHTML = sum;
