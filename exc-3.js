@@ -1,7 +1,7 @@
 function calculateSum(){
     let a = Number(document.getElementById("a").value);
     let b = Number(document.getElementById("b").value);
-    let input = document.getElementById("list").value);
+    let input = document.getElementById("list").value;
 
     let l = input.split(/[,\s]+/).map(Number);
     
