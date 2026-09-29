@@ -7,7 +7,7 @@ function calculateSum(){
     
     let sum2 =0;
     for(let i = 0; i < l.length; i++){
-        if(l[i] % a === 0 || l[i] 5 b === 0){
+        if(l[i] % a === 0 || l[i] % b === 0){
             sum2 = sum2 + l[i];
         }
     }
